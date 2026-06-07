@@ -1,0 +1,9 @@
+{
+    // --- Blender Extension Settings ---
+    "blender.addon.reloadOnSave": true,
+
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    }
+}
