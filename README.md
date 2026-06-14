@@ -73,6 +73,6 @@ To run the test suite, use:
 ```
 ${CONFIG}/blender.exe --background --factory-startup --python tests/__init__.py
 ```
-Where ```${CONFIG}``` is where your blender executable lives.
+Where ```${CONFIG}``` is where your Blender executable lives.
  
-**NOTE: Tests must follow the naming scheme ```test_*.py```**
+**NOTE: Tests must follow the naming scheme** ```test_*.py```
