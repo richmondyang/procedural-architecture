@@ -2,8 +2,19 @@
     // --- Blender Extension Settings ---
     "blender.addon.reloadOnSave": true,
 
+    // --- Ruff Extension Settings ---
+    "ruff.lint.extendSelect": [
+        "I",
+        "N",
+        "UP"
+    ],
+
     "[python]": {
         "editor.formatOnSave": true,
-        "editor.defaultFormatter": "charliermarsh.ruff"
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports.ruff": "explicit"
+        }
     }
 }
