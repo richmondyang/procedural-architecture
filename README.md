@@ -72,10 +72,18 @@ deactivate
 ```
 
 ### Running Tests
-To run the test suite, use:
+To run the test suite, use: 
+
+Windows
 ```
-${CONFIG}/blender.exe --background --factory-startup --python tests/__init__.py
+${CONFIG}\blender.exe --background --factory-startup --python tests/__init__.py
 ```
+
+macOS / Linux
+```
+${CONFIG}/blender --background --factory-startup --python tests/__init__.py
+```
+
 Where ```${CONFIG}``` is where your Blender executable lives.
  
 **NOTE: Tests must follow the naming scheme** ```test_*.py```
