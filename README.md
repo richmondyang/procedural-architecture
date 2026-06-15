@@ -26,16 +26,19 @@ Once VS Code has been configured, set up and activate a virtual environment for 
 Windows (PowerShell)  
 ```
 python -m venv .venv  
+.venv\Scripts\Activate.ps1
 ```
 
 Windows (Command Prompt)  
 ```
 python -m venv .venv  
+.venv\Scripts\activate.bat
 ```
 
 macOS / Linux  
 ```
 python3 -m venv .venv 
+source .venv/bin/activate
 ```
 
 Once a virtual environment has been set up, install these packages: 
