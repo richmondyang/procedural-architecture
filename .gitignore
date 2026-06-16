@@ -2,3 +2,28 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.ruff_cache/
+
+# Virtual environment
+.venv/
+
+# Secrets and Credentials
+.env
+
+# Operating System Files
+# Windows
+[Tt]humbs.db
+[Tt]humbs.db:*
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
