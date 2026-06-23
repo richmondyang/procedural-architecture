@@ -5,7 +5,7 @@ Blender toolset for procedural layout and building generation
 ### Initial Setup
 This project is developed in VS Code
 
-Ensure the latest version of Python and Blender are installed.
+Ensure the Python 3.13.0 and Blender are installed.
 
 Opening up the project in VS Code should automatically prompt for recommended VS Code extensions to be downloaded. The necessary settings for these extensions will also be configured once downloaded.
 
@@ -25,25 +25,27 @@ Once VS Code has been configured, set up and activate a virtual environment for 
 
 Windows (PowerShell)  
 ```
-python -m venv .venv  
+python3.13 -m venv .venv  
 .venv\Scripts\Activate.ps1
 ```
 
 Windows (Command Prompt)  
 ```
-python -m venv .venv  
+python3.13 -m venv .venv  
 .venv\Scripts\activate.bat
 ```
 
 macOS / Linux  
 ```
-python3 -m venv .venv 
+python3.13 -m venv .venv 
 source .venv/bin/activate
 ```
 
 Once a virtual environment has been set up, install these packages: 
 ```
 pip install fake-bpy-module
+pip install nodebpy
+pip install databpy
 ```
 
 ### Every development session
